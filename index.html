@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <title>Desin your T-shirt</title>
+        <style>
+            #header
+            {
+                width: 100%;
+                height: 10%;
+                background-color: #f900ff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #header_left
+            {
+                width: 45%; 
+                height: 100%;
+                background-color: #f9f9f9;
+                display: flex;
+                justify-content: left;	
+                align-items: center;	
+                /* float: left; */
+            }
+            #header_right
+            {
+                width: 55%; 
+                height: 100%;
+                background-color: #f9f9f9;	
+                display: flex;	
+                align-items: center;
+                justify-content: center;
+                /* float: left; */
+            }
+            
+            #body
+            {
+                width: 100%;
+                height: 90%;
+                /* background-image: linear-gradient(to right, #29957e, #12a554); */
+                background-color: f9f9f9;
+            }
+            
+            #body_center
+            {
+                width: 90%;
+                height: 500px; 
+                background-color: #a8d640;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                font-size: 110%;
+                padding: 10px;
+                position: absolute;
+                top:80;
+                bottom: 0;
+                left: 0;
+                right: 0;
+
+                margin: auto;
+                /* padding: 10px; */
+                /* border: 1px solid; */
+                border-radius: 25px;
+                /* box-shadow: 0px 0px 20px 1px #130101; */
+            }
+            #flex
+            {
+               display: flex;
+               justify-content: space-between; 
+            }
+            .button 
+            {
+                background-color: #19191b;
+                border: 2px solid  white;
+                border-radius: 20px;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            .button2 
+            {
+                background-color: #a6d83b;
+                border: 2px solid  #0f1410;
+                height: 40px;
+                border-radius: 20px;
+                color: #0f1410;
+                font-weight: bold;
+                padding: 5px 22px;
+                text-align: center;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            ul
+            {
+                color: #8d8d8b;
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .icons
+            {
+                
+                font-size: 10px;
+                margin: 5px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            li
+            {
+                font-size: 20px;
+                margin: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }            
+            img
+            {
+                height: 30px;
+            }
+            .img
+            {
+                height: 100px;
+            }
+            a
+            {
+                color: #19191b;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            
+            <div id="header_left">
+                <img class="img" src="icons/toolm5.jpg" >
+            
+            </div>
+            <div id="header_right">
+
+                <div id="flex">
+
+                <ul>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>  
+                <ul >
+                    <li class="icons"><img src="icons/fb.jpg"></li>
+                    <li class="icons"><img src="icons/twitter.jpg"></li>
+                    <li class="icons"><img src="icons/ig.jpg"></li>
+                </ul> 
+                <ul>
+                    <li><a href="#" class="button2">Get started   <img src="icons/arrow.jpg" height="5px"> </a></li>
+                </ul>
+                
+            </div>
+
+            </div>
+        </div>
+        <div id="body">
+            <div id="body_center">
+                <div>
+
+                <h4>Create your</h4>
+                <h1>T-Shirt Design</h1>
+                <a href="#" class="button">Get started  </a><br><br>
+                <a href="#">View how it works</a><br><br><br>
+                Lorem ipsum dolor sit amet,consectetur adipiscing elit
+
+            </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>
